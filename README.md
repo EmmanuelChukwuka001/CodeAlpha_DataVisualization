@@ -54,7 +54,7 @@ python -m pip install -r requirements.txt
 jupyter notebook
 ```
 
-Keep `data/nigerian_equipment_marketplace_cleaned.csv` in the `data/` directory as the notebook and run `Task 3_Data Visualization.ipynb` from top to bottom. The notebook saves generated images into a `charts/` folder when run locally. The pre-generated PNG files are also linked above for quick review.
+Keep `data/nigerian_equipment_marketplace_cleaned.csv` in the `data/` directory. From the repository root, run `Task 3_Data Visualization.ipynb` from top to bottom. The notebook saves generated images into a `charts/` folder when run locally. The pre-generated PNG files are also linked above for quick review.
 
 ## Project sequence
 
