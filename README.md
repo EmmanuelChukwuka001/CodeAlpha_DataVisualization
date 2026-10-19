@@ -12,15 +12,15 @@ This repository contains **Task 3 — Data Visualization** for the CodeAlpha Dat
 | File | Purpose |
 |---|---|
 | [`Task 3_Data Visualization.ipynb`](Task%203_Data%20Visualization.ipynb) | Code and written interpretation for eight visualizations |
-| [`nigerian_equipment_marketplace_cleaned.csv`](nigerian_equipment_marketplace_cleaned.csv) | Cleaned dataset from Task 2 (158 equipment listings) |
-| [`01_listings_by_category.png`](01_listings_by_category.png) | Listings by equipment category |
-| [`02_listings_by_region.png`](02_listings_by_region.png) | Listings by region |
-| [`03_listings_by_condition.png`](03_listings_by_condition.png) | Seller-reported equipment condition |
-| [`04_price_availability.png`](04_price_availability.png) | Availability of sale and rental prices |
-| [`05_sale_price_distribution.png`](05_sale_price_distribution.png) | Advertised sale-price distribution |
-| [`06_median_price_by_category.png`](06_median_price_by_category.png) | Median sale price by category |
-| [`07_category_region_heatmap.png`](07_category_region_heatmap.png) | Category-by-region listing counts |
-| [`08_summary_dashboard.png`](08_summary_dashboard.png) | Summary dashboard |
+| [`data/nigerian_equipment_marketplace_cleaned.csv`](data/nigerian_equipment_marketplace_cleaned.csv) | Cleaned dataset from Task 2 (158 equipment listings) |
+| [`01_listings_by_category.png`](charts/01_listings_by_category.png) | Listings by equipment category |
+| [`02_listings_by_region.png`](charts/02_listings_by_region.png) | Listings by region |
+| [`03_listings_by_condition.png`](charts/03_listings_by_condition.png) | Seller-reported equipment condition |
+| [`04_price_availability.png`](charts/04_price_availability.png) | Availability of sale and rental prices |
+| [`05_sale_price_distribution.png`](charts/05_sale_price_distribution.png) | Advertised sale-price distribution |
+| [`06_median_price_by_category.png`](charts/06_median_price_by_category.png) | Median sale price by category |
+| [`07_category_region_heatmap.png`](charts/07_category_region_heatmap.png) | Category-by-region listing counts |
+| [`08_summary_dashboard.png`](charts/08_summary_dashboard.png) | Summary dashboard |
 | [`requirements.txt`](requirements.txt) | Python dependencies |
 
 ## Visualizations
@@ -54,7 +54,7 @@ python -m pip install -r requirements.txt
 jupyter notebook
 ```
 
-Keep `nigerian_equipment_marketplace_cleaned.csv` in the same working directory as the notebook and run `Task 3_Data Visualization.ipynb` from top to bottom. The notebook saves generated images into a `charts/` folder when run locally. The pre-generated PNG files are also linked above for quick review.
+Keep `data/nigerian_equipment_marketplace_cleaned.csv` in the `data/` directory as the notebook and run `Task 3_Data Visualization.ipynb` from top to bottom. The notebook saves generated images into a `charts/` folder when run locally. The pre-generated PNG files are also linked above for quick review.
 
 ## Project sequence
 
@@ -63,3 +63,10 @@ Keep `nigerian_equipment_marketplace_cleaned.csv` in the same working directory 
 - **Task 3 — Data Visualization:** this repository
 
 *CodeAlpha Data Analytics Internship · Task 3: Data Visualization*
+
+
+## Folder layout
+
+- `data/` — cleaned CSV input
+- `charts/` — eight generated visualization images
+- `Task 3_Data Visualization.ipynb` — visualization notebook
